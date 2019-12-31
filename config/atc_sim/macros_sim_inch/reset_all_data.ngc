@@ -1,5 +1,7 @@
 o<reset_all_data> sub
 
+  M68 E0 Q0
+
   M68 E1 Q0
 
   M68 E2 Q0
