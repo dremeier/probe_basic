@@ -1,0 +1,23 @@
+/* E-Stop button */
+ActionButton[action_id="0"]:checked {
+    border-radius: 5px;
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(226, 64, 64, 255), stop:0.446154 rgba(204, 0, 0, 255), stop:0.764103 rgba(225, 67, 67, 255), stop:1 rgba(249, 142, 142, 255));
+}
+
+
+ActionButton {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    min-width: 130px;
+    min-height: 30px;
+    font: 11pt "bebas kai";
+	background: rgb(164, 0, 0);
+}
+
+
+Liberation Sans Narrow
+
+
+'background-color:#ef2929;' if (ch[0][0]) else 'background-color:#8ae234
+
+'HalLabel{\n background:#ef2929;\n}' if str(ch[0]) else 'HalLabel{\n background:#8ae234;\n}'

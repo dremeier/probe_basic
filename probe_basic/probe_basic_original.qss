@@ -9,7 +9,7 @@ QsciScintilla {
 
 QStatusBar {
 	color: white;
-	font-family: "Liberation Sans";
+	font-family: "Bebas Kai";
     font-size: 12pt;
 }
 
@@ -24,8 +24,8 @@ QComboBox[editable="true"]::drop-down {
 }
 
 QPushButton {
-    font-family: "Liberation Sans";
-    /*font-size: 15pt;*/
+    font-family: "Bebas Kai";
+    font-size: 15pt;
 }
 
 QPushButton:disabled {
@@ -85,7 +85,7 @@ QLineEdit {
     background: white;
     selection-color: white;
     selection-background-color: rgb(65, 84, 255);
-    font: 15pt "Liberation Sans";
+    font: 15pt "Bebas Kai";
     padding-right: 2px;
 }
 
@@ -101,15 +101,6 @@ QLineEdit:focus {
     border-color: rgb(186, 189, 182);
     border-width: 2px;
     border-radius: 6px;
-}
-
-DROWidget {
-    color: black;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 4px;
-    background-color: white;
 }
 
 QGroupBox {
@@ -275,7 +266,7 @@ QMenuBar {
     padding: 1px;
     border: 0px solid black;
     color: white;
-    font-family: "Liberation Sans";
+    font-family: "Bebas Kai";
     font-size: 12pt;
 }
 
@@ -312,7 +303,7 @@ QMenu {
     background-color: gray;
     color: white;
     margin: 0px;
-    font-family: "Liberation Sans";
+    font-family: "Bebas Kai";
     font-size: 11pt;
 }
 
@@ -390,8 +381,8 @@ QMenu::indicator {
 #pan_button,
 #program_zoom_button,
 #machine_zoom_button {
-    font-family: "Liberation Sans";
-    font-size: 12pt
+    font-family: "Bebas Kai";
+    font-size: 14pt
 }
 
 #x_view_button:disabled,
