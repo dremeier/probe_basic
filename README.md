@@ -1,7 +1,6 @@
 ![](probe_basic/images/probe_basic_icon.png)
 
-## files in these repro are changed to my own needs
-![](probe_basic/images/vcp_status.png)
+## !! files in these repro are changed to my own needs !!
 
 ## Documentation
 
