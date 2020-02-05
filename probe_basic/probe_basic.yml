@@ -127,6 +127,89 @@ settings:
     min_value: -1000
     max_value: 1000
 
+  machine-parameters.z-safe:
+    description: z axis safe movement G53.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  machine-parameters.x-g28-pos:
+    description: x axis G28 position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  machine-parameters.y-g28-pos:
+    description: y axis G28 position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  machine-parameters.z-g28-pos:
+    description: z axis G28 position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  machine-parameters.x-park-pos:
+    description: x axis park position.
+    default_value: 0.0
+    persistent: true
+    min_value: -10
+    max_value: 1000
+
+  machine-parameters.y-park-pos:
+    description: y axis park position.
+    default_value: 0.0
+    persistent: true
+    min_value: -10
+    max_value: 1000
+
+  machine-parameters.z-park-pos:
+    description: z axis park position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 10
+
+  manual-tool-change.atc-manual:
+    description: ATC or manual-tool-change, if 1 then ATC
+    default_value: 0
+    persistent: true
+
+
+  manual-tool-change-position.x-manualtool-change-position:
+    description: x axis manual tool change position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  manual-tool-change-position.y-manualtool-change-position:
+    description: y axis manual tool change position.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  manual-tool-change-position.z-manualtool-change-position:
+    description: z axis manual tool change position.
+    default_value: -5.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  manual-spindle.set-spindle-speed:
+    description: set Spindle speed for manual use.
+    default_value: 0
+    persistent: true
+    min_value: 0
+    max_value: 24000
+
   tool-setter-probe.fast-probe-fr:
     description: tool probe fast feedrate.
     default_value: 0.0
@@ -156,6 +239,14 @@ settings:
     max_value: 1000
 
   tool-setter-probe.retract-distance:
+    description: distance tool retracts after fast probe move.
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+
+  tool-setter-probe.retract-distance2:
     description: distance tool retracts after fast probe move.
     default_value: 0.0
     persistent: true
