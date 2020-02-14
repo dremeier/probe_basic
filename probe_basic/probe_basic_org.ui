@@ -1899,6 +1899,127 @@ chg. pos.</string>
                  <height>15</height>
                 </size>
                </property>
+<<<<<<< HEAD
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>---</string>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="7">
+              <widget class="HalButton" name="portallicht_btn_9">
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>---</string>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="5">
+              <widget class="SubCallButton" name="go_to_manual_tool_change_pos">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>1</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Liberation Sans</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">.SubCallButton {
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+.SubCallButton {
+    font-family: &quot;Liberation Sans&quot;;
+    font-size: 12pt;
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+               </property>
+               <property name="text">
+                <string>manual
+Tool
+chg. pos.</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>15</width>
+                 <height>15</height>
+                </size>
+               </property>
+=======
+>>>>>>> master
                <property name="filename" stdset="0">
                 <string>go_to_man_tool_chg.ngc</string>
                </property>
@@ -2050,6 +2171,8 @@ remaped</string>
     color: white;    
     border-color: black;
     border-style: solid;
+<<<<<<< HEAD
+=======
     border-radius: 5px;
     border-width: 2px;
     background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
@@ -2306,6 +2429,7 @@ QComboBox QAbstractItemView{
     border-style: none;
     border-color: rgb(235, 235, 235);
     border-width: 1px;
+>>>>>>> master
     border-radius: 5px;
     background: none;
 }</string>
@@ -3203,6 +3327,1102 @@ QComboBox QAbstractItemView{
     font: 12pt &quot;Bebas Kai&quot;;
 }
 
+<<<<<<< HEAD
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+            </property>
+            <property name="text">
+             <string>test</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="filename" stdset="0">
+             <string>toolchange.ngc</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="main_tab">
+           <property name="font">
+            <font>
+             <family>Liberation Sans</family>
+            </font>
+           </property>
+           <attribute name="title">
+            <string>Main</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QFrame" name="frame_24">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>1</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>1</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Liberation Sans</family>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QFrame{
+border: none;
+background-color: transparent;
+}</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSplitter" name="splitter">
+              <property name="font">
+               <font>
+                <family>Liberation Sans</family>
+               </font>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="lineWidth">
+               <number>2</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="handleWidth">
+               <number>10</number>
+              </property>
+              <widget class="QWidget" name="verticalWidget" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>650</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>650</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Liberation Sans</family>
+                </font>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0">
+                <property name="spacing">
+                 <number>2</number>
+                </property>
+                <property name="sizeConstraint">
+                 <enum>QLayout::SetMinimumSize</enum>
+                </property>
+                <property name="leftMargin">
+                 <number>1</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>1</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="RecentFileComboBox" name="recentfilecombobox">
+                  <property name="minimumSize">
+                   <size>
+                    <width>142</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bebas Kai</family>
+                    <pointsize>12</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QComboBox {
+	border: 1px solid black;
+	border-radius: 3px;
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	padding: 1px 23px 1px 3px;
+	min-width: 6em;
+	color: #ffffff;
+    font: 12pt &quot;Bebas Kai&quot;;
+}
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 20px;
+ 	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+    font: 12pt &quot;Bebas Kai&quot;;
+}
+QComboBox::down-arrow {
+     image: url(:/images/combobox-arrow.png);
+}
+ 
+QComboBox QAbstractItemView{
+	background-color: #4f4f4f;
+	color: #999999;
+ 	selection-background-color: #999999;
+	selection-color: #4f4f4f;
+}</string>
+                  </property>
+                  <property name="resource" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="GcodeEditor" name="gcodeeditor">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Liberation Sans</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="editor" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Liberation Sans</family>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QWidget {
+    border-style: none;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    background: none;
+}</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_16">
+                   <property name="spacing">
+                    <number>3</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="MDIEntry" name="mdi_entry_box">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Liberation Sans</family>
+                       <pointsize>15</pointsize>
+                       <weight>50</weight>
+                       <italic>false</italic>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::ClickFocus</enum>
+                     </property>
+                     <property name="placeholderText">
+                      <string>MDI</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_7" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_10">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="vtk_control_buttons" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>90</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">.QWidget{
+    background: rgb(0, 0, 50);
+}</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <property name="spacing">
+                   <number>6</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>15</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>18</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>12</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="iso_view_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Liberation Sans</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="text">
+                     <string>ISO View</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="x_view_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>X View</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="y_view_button">
+=======
+                  <item>
+                   <widget class="QPushButton" name="program_zoom_button">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+<<<<<<< HEAD
+                     <string>Y View</string>
+=======
+                     <string>PGM EXT</string>
+>>>>>>> master
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QPushButton" name="z_view_button">
+=======
+                   <widget class="QPushButton" name="machine_zoom_button">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+<<<<<<< HEAD
+                     <string>Z View</string>
+=======
+                     <string>MCH EXT</string>
+>>>>>>> master
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QLabel" name="label_29">
+=======
+                   <widget class="QLabel" name="label_27">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QPushButton" name="pan_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>Pan</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="zoom_in_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+=======
+                   <widget class="QPushButton" name="path_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+>>>>>>> master
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+<<<<<<< HEAD
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>Zoom +</string>
+=======
+                     <string/>
+                    </property>
+                    <property name="text">
+                     <string>PATH</string>
+>>>>>>> master
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QPushButton" name="zoom_out_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+=======
+                   <widget class="QPushButton" name="clear_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+>>>>>>> master
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+<<<<<<< HEAD
+                     <string>Zoom -</string>
+=======
+                     <string>CLEAR</string>
+>>>>>>> master
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QLabel" name="label_32">
+=======
+                   <widget class="QLabel" name="label_28">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+<<<<<<< HEAD
+                   <widget class="QPushButton" name="program_zoom_button">
+=======
+                   <widget class="QPushButton" name="ortho_button">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+<<<<<<< HEAD
+                     <string>PGM EXT</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="machine_zoom_button">
+=======
+                     <string>ORTHO</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                    <property name="autoExclusive">
+                     <bool>true</bool>
+                    </property>
+                    <attribute name="buttonGroup">
+                     <string notr="true">mainorthoperspbtnGroup</string>
+                    </attribute>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="perspective_button">
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+<<<<<<< HEAD
+                     <string>MCH EXT</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_27">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>60</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="path_button">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string/>
+                    </property>
+                    <property name="text">
+                     <string>Path</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="clear_button">
+=======
+                     <string>PSPECT</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="autoExclusive">
+                     <bool>true</bool>
+                    </property>
+                    <attribute name="buttonGroup">
+                     <string notr="true">mainorthoperspbtnGroup</string>
+                    </attribute>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="VTKBackPlot" name="vtk">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">VTKBackPlot {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 8px;
+}</string>
+                 </property>
+                 <property name="backgroundColor" stdset="0">
+                  <color>
+                   <red>32</red>
+                   <green>36</green>
+                   <blue>37</blue>
+                  </color>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="file_tab">
+           <attribute name="title">
+            <string>FILE</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_120">
+              <property name="spacing">
+               <number>15</number>
+              </property>
+              <property name="sizeConstraint">
+               <enum>QLayout::SetNoConstraint</enum>
+              </property>
+              <property name="leftMargin">
+               <number>15</number>
+              </property>
+              <property name="topMargin">
+               <number>20</number>
+              </property>
+              <property name="rightMargin">
+               <number>15</number>
+              </property>
+              <property name="bottomMargin">
+               <number>20</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_35">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>500</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>500</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QFrame{
+    background-color: rgb(51, 57, 59);
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_37">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_124">
+                   <property name="leftMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>5</number>
+                   </property>
+                   <item>
+                    <widget class="QPushButton" name="device_folder_up_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>110</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>110</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>  FOLDER UP</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/folder_up.png</normaloff>:/images/folder_up.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>30</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="RemovableDeviceComboBox" name="removabledevicecombobox">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>1</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="device_eject_usb_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>EJECT USB</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_125">
+                   <item>
+                    <widget class="FileSystemTable" name="filesystemtable_2">
+                     <property name="focusPolicy">
+                      <enum>Qt::WheelFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">FileSystemTable {
+	color: black;
+   	border: 4px;
+	border-color: rgb(120, 120, 120);
+	border-style: solid;
+	background-color: rgb(238, 238, 236);
+    font: 12pt &quot;Bebas Kai&quot;;
+}
+
+=======
+>>>>>>> master
 QHeaderView {
     background-color: rgb(220, 220, 220);
 	color: black;
@@ -3675,6 +4895,7 @@ QHeaderView {
 	border-radius:none;
 	border-style: none;
 	font: 13pt &quot;Bebas Kai&quot;;
+<<<<<<< HEAD
 }</string>
                      </property>
                      <property name="selectionMode">
@@ -3876,6 +5097,634 @@ QHeaderView {
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_38">
+                 <property name="leftMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_127">
+                   <item>
+                    <widget class="QPushButton" name="gcode_editor_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>GCODE EDITOR</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="checked">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                     <property name="page" stdset="0">
+                      <number>0</number>
+                     </property>
+                     <attribute name="buttonGroup">
+                      <string notr="true">fileviewerbtnGroup</string>
+                     </attribute>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="setup_viewer_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>SETUP VIEWER</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                     <property name="page" stdset="0">
+                      <number>1</number>
+                     </property>
+                     <attribute name="buttonGroup">
+                      <string notr="true">fileviewerbtnGroup</string>
+                     </attribute>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QStackedWidget" name="file_viewer_widget">
+                   <property name="minimumSize">
+                    <size>
+                     <width>457</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QStackedWidget{
+    background-color: transparent;
+}</string>
+                   </property>
+                   <property name="currentIndex">
+                    <number>0</number>
+                   </property>
+                   <widget class="QWidget" name="page_5">
+                    <layout class="QVBoxLayout" name="verticalLayout_50">
+                     <item>
+                      <widget class="QLabel" name="file_absolute_path">
+                       <property name="enabled">
+                        <bool>true</bool>
+                       </property>
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>300</width>
+                         <height>25</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>25</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Bebas Kai</family>
+                         <pointsize>12</pointsize>
+                         <weight>50</weight>
+                         <italic>false</italic>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QLabel{
+    border-style: solid;
+    border-radius: 4px;
+    border-color: transparent;
+    color: black;
+  	background-color: white;
+    font: 12pt &quot;Bebas Kai&quot;;
+    padding-left: 6px;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="GcodeEditor" name="gcodeeditor_2">
+                       <property name="styleSheet">
+                        <string notr="true">GcodeEditor {
+	color: black;
+   	border: 4px;
+	border-color: rgb(120, 120, 120);
+	border-style: solid;
+	background-color: rgb(238, 238, 236);
+}</string>
+                       </property>
+                       <property name="is_editor" stdset="0">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_129">
+                       <item>
+                        <widget class="QPushButton" name="edit_gcode_button">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>EDIT G-CODE</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="find_replace_button">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>FIND/REPLACE</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="save_button">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>SAVE</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="save_as_button">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>SAVE AS</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="page_6">
+                    <layout class="QVBoxLayout" name="verticalLayout_52">
+                     <item>
+                      <widget class="GcodeEditor" name="gcodeeditor_4">
+                       <property name="styleSheet">
+                        <string notr="true">GcodeEditor {
+	color: black;
+   	border: 4px;
+	border-color: rgb(120, 120, 120);
+	border-style: solid;
+	background-color: rgb(238, 238, 236);
+}</string>
+                       </property>
+                       <property name="is_editor" stdset="0">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+=======
+}</string>
+                     </property>
+                     <property name="selectionMode">
+                      <enum>QAbstractItemView::SingleSelection</enum>
+                     </property>
+                     <property name="showGrid">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_123">
+                   <item>
+                    <widget class="QPushButton" name="main_delete_item_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>90</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> DELETE</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>14</width>
+                       <height>14</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="main_new_file_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>100</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> NEW FILE</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_file.png</normaloff>:/images/new_file.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>12</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="main_new_folder_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>125</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> NEW FOLDER</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_folder.png</normaloff>:/images/new_folder.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>28</width>
+                       <height>15</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="main_rename_item_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>90</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>RENAME</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+>>>>>>> master
+                 </item>
+                </layout>
+               </widget>
+              </item>
+<<<<<<< HEAD
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="atc_tab">
+           <attribute name="title">
+            <string>ATC</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout_36">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>12</number>
+              </property>
+              <property name="rightMargin">
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_33">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+=======
+              <item>
+               <widget class="QFrame" name="frame_36">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+>>>>>>> master
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+<<<<<<< HEAD
+                <property name="minimumSize">
+                 <size>
+                  <width>320</width>
+                  <height>550</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>320</width>
+                  <height>550</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QFrame{
+    background-color: rgb(51, 57, 59);
+    padding-left: 10px;
+    padding-right: 10px;
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_113">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="machine_column_header_9">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>45</height>
+=======
+                <property name="styleSheet">
+                 <string notr="true">.QFrame{
+    background-color: rgb(51, 57, 59);
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_38">
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_127">
                    <item>
@@ -3934,11 +5783,121 @@ QHeaderView {
                       <size>
                        <width>300</width>
                        <height>25</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
+<<<<<<< HEAD
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QLabel{
+    border-style: solid;
+    border-color: rgb(176, 179, 172);
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(90, 90, 90);
+	font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>ATC MANUAL CONTROL PANEL</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_11">
+                   <property name="spacing">
+                    <number>15</number>
+                   </property>
+                   <property name="sizeConstraint">
+                    <enum>QLayout::SetFixedSize</enum>
+                   </property>
+                   <property name="leftMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>2</number>
+                   </property>
+                   <item>
+                    <widget class="QLineEdit" name="insert_atc_tool_input">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>100</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>125</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::ClickFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 17pt;</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="ActionButton" name="insert_atc_tool">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>100</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>125</width>
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+=======
                        <height>25</height>
                       </size>
                      </property>
@@ -4317,6 +6276,7 @@ QHeaderView {
 }</string>
                      </property>
                      <property name="text">
+>>>>>>> master
                       <string>INSERT</string>
                      </property>
                     </widget>
@@ -5110,6 +7070,128 @@ font: 16pt &quot;Bebas Kai&quot;;
                    <layout class="QHBoxLayout" name="horizontalLayout_132">
                     <property name="leftMargin">
                      <number>5</number>
+<<<<<<< HEAD
+                    </property>
+                    <property name="topMargin">
+                     <number>3</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_133">
+                      <property name="spacing">
+                       <number>3</number>
+                      </property>
+                      <item>
+                       <widget class="StatusLabel" name="tool_length_10">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>70</width>
+                          <height>40</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>40</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QLabel {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 7px;
+    color: black;
+    background: white;
+	font: 75 13pt &quot;Bebas Kai&quot;;
+}</string>
+                        </property>
+                        <property name="text">
+                         <string>No Tool Loaded</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                        <property name="indent">
+                         <number>4</number>
+                        </property>
+                        <property name="rules" stdset="0">
+                         <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?remark&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Tool Comment&quot;}]</string>
+                        </property>
+                        <property name="format" stdset="0">
+                         <string>{:.3f}</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="widget_3" native="true">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>1</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>280</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>280</height>
+                    </size>
+                   </property>
+                   <widget class="QLabel" name="label_89">
+                    <property name="geometry">
+                     <rect>
+                      <x>40</x>
+                      <y>4</y>
+                      <width>169</width>
+                      <height>274</height>
+                     </rect>
+                    </property>
+>>>>>>> master
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+<<<<<<< HEAD
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>75</width>
+                      <height>33</height>
+                     </size>
+=======
+>>>>>>> master
                     </property>
                     <property name="topMargin">
                      <number>3</number>
@@ -5246,6 +7328,15 @@ font: 16pt &quot;Bebas Kai&quot;;
                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                       <horstretch>0</horstretch>
 =======
+<<<<<<< HEAD
+                    <property name="styleSheet">
+                     <string notr="true">image: url(:/images/atc_spindle_tool.png);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+=======
+>>>>>>> master
                     <property name="scaledContents">
                      <bool>true</bool>
                     </property>
@@ -5429,6 +7520,8 @@ font: 16pt &quot;Bebas Kai&quot;;
                <widget class="QFrame" name="frame_35">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+<<<<<<< HEAD
+=======
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -5469,6 +7562,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                     <widget class="QPushButton" name="device_folder_up_button">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+>>>>>>> master
 =======
                       <width>50</width>
                       <height>30</height>
@@ -5564,25 +7658,60 @@ font: 16pt &quot;Bebas Kai&quot;;
                <widget class="QFrame" name="frame_6">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+>>>>>>> master
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
                 </property>
                 <property name="minimumSize">
                  <size>
+<<<<<<< HEAD
+                  <width>500</width>
+                  <height>0</height>
+=======
                   <width>320</width>
                   <height>385</height>
+>>>>>>> master
                  </size>
                 </property>
                 <property name="maximumSize">
                  <size>
+<<<<<<< HEAD
+                  <width>500</width>
+                  <height>16777215</height>
+=======
                   <width>320</width>
                   <height>385</height>
+>>>>>>> master
                  </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
+<<<<<<< HEAD
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_37">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_124">
+                   <property name="leftMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>5</number>
+                   </property>
+                   <item>
+                    <widget class="QPushButton" name="device_folder_up_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+=======
     padding-left: 10px;
     padding-right: 10px;
 }</string>
@@ -5671,17 +7800,60 @@ font: 16pt &quot;Bebas Kai&quot;;
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>200</horstretch>
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>110</width>
+                       <height>30</height>
+=======
                        <width>0</width>
                        <height>43</height>
+>>>>>>> master
+=======
+                       <width>0</width>
+                       <height>43</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>110</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>  FOLDER UP</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/folder_up.png</normaloff>:/images/folder_up.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>30</width>
+                       <height>17</height>
+                      </size>
+=======
+=======
+>>>>>>> master
                        <width>16777215</width>
                        <height>43</height>
                       </size>
@@ -5700,20 +7872,58 @@ font: 16pt &quot;Bebas Kai&quot;;
                      </property>
                      <property name="rules" stdset="0">
                       <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?tool_number&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;str(0)&quot;, &quot;name&quot;: &quot;update tool num&quot;}, {&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}, {&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;ch[0] == 'On' and ch[1] == 'Idle'&quot;, &quot;name&quot;: &quot;enable/disable&quot;}]</string>
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
                      </property>
                     </widget>
                    </item>
                    <item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <widget class="RemovableDeviceComboBox" name="removabledevicecombobox">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>1</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+=======
+=======
+>>>>>>> master
                     <widget class="SubCallButton" name="load_spindle_button">
                      <property name="minimumSize">
                       <size>
                        <width>125</width>
                        <height>45</height>
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <height>30</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="device_eject_usb_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+=======
+=======
+>>>>>>> master
                        <height>45</height>
                       </size>
                      </property>
@@ -5791,20 +8001,44 @@ QPushButton:checked {
                      </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
                        <width>130</width>
                        <height>45</height>
+>>>>>>> master
+=======
+                       <width>130</width>
+                       <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
                        <width>16777215</width>
                        <height>45</height>
+>>>>>>> master
+=======
+                       <width>16777215</width>
+                       <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="focusPolicy">
@@ -5812,6 +8046,61 @@ QPushButton:checked {
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton {
+<<<<<<< HEAD
+<<<<<<< HEAD
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>EJECT USB</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_125">
+                   <item>
+                    <widget class="FileSystemTable" name="filesystemtable_2">
+                     <property name="font">
+                      <font>
+                       <family>Bebas Kai</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <italic>false</italic>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::WheelFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">FileSystemTable {
+	color: black;
+   	border: 4px;
+	border-color: rgb(120, 120, 120);
+	border-style: solid;
+	background-color: rgb(238, 238, 236);
+    font: 12pt &quot;Bebas Kai&quot;;
+}
+
+QHeaderView {
+    background-color: rgb(220, 220, 220);
+	color: black;
+    border: none;
+	border-radius:none;
+	border-style: none;
+	font: 13pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="selectionMode">
+                      <enum>QAbstractItemView::SingleSelection</enum>
+                     </property>
+                     <property name="showGrid">
+                      <bool>false</bool>
+=======
+=======
+>>>>>>> master
    	font: 16pt &quot;Bebas Kai&quot;;
 }</string>
                      </property>
@@ -5829,12 +8118,21 @@ QPushButton:checked {
                      </property>
                      <property name="MDICommand" stdset="0">
                       <string>M61 Q0 G49 #5210 = 0</string>
+>>>>>>> master
                      </property>
                     </widget>
                    </item>
                   </layout>
                  </item>
                  <item>
+<<<<<<< HEAD
+                  <layout class="QHBoxLayout" name="horizontalLayout_126">
+                   <item>
+                    <widget class="QPushButton" name="device_delete_item_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+=======
                   <layout class="QHBoxLayout" name="horizontalLayout_135" stretch="0,0">
                    <property name="spacing">
                     <number>15</number>
@@ -5859,25 +8157,62 @@ QPushButton:checked {
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                        <horstretch>1</horstretch>
+>>>>>>> master
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>90</width>
+                       <height>30</height>
+=======
                        <width>125</width>
                        <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>90</width>
+                       <height>30</height>
+=======
                        <width>16777215</width>
                        <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="focusPolicy">
                       <enum>Qt::NoFocus</enum>
                      </property>
                      <property name="styleSheet">
+<<<<<<< HEAD
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> DELETE</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>14</width>
+                       <height>14</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="device_new_file_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+=======
                       <string notr="true">font: 16pt &quot;Bebas Kai&quot;;</string>
                      </property>
                      <property name="text">
@@ -5903,24 +8238,59 @@ QPushButton:checked {
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                        <horstretch>1</horstretch>
+>>>>>>> master
                        <verstretch>0</verstretch>
                       </sizepolicy>
                      </property>
                      <property name="minimumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
                        <width>125</width>
                        <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
                        <width>16777215</width>
                        <height>45</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="focusPolicy">
                       <enum>Qt::NoFocus</enum>
                      </property>
+<<<<<<< HEAD
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> NEW FILE</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_file.png</normaloff>:/images/new_file.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>12</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="device_new_folder_button">
+=======
                      <property name="layoutDirection">
                       <enum>Qt::RightToLeft</enum>
                      </property>
@@ -5968,6 +8338,12 @@ font: 16pt &quot;Bebas Kai&quot;;
                     <number>2</number>
                    </property>
                    <item>
+<<<<<<< HEAD
+                    <widget class="SubCallButton" name="store_tool_in_spindle">
+                     <property name="minimumSize">
+                      <size>
+                       <width>125</width>
+=======
                     <widget class="MDIButton" name="store_current_tool">
                      <property name="enabled">
                       <bool>false</bool>
@@ -5986,6 +8362,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                        <height>30</height>
 =======
                        <width>130</width>
+>>>>>>> master
                        <height>45</height>
 >>>>>>> master
                       </size>
@@ -6001,11 +8378,44 @@ font: 16pt &quot;Bebas Kai&quot;;
 >>>>>>> master
                       </size>
                      </property>
-                     <property name="focusPolicy">
-                      <enum>Qt::NoFocus</enum>
-                     </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton {
+<<<<<<< HEAD
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+QPushButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 16pt;
+}
+
+QPushButton:disabled {
+    border-color: gray;
+}
+
+QPushButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+QPushButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+</string>
+=======
 <<<<<<< HEAD
    	font: 14pt &quot;Bebas Kai&quot;;
 }</string>
@@ -6052,21 +8462,13 @@ font: 16pt &quot;Bebas Kai&quot;;
 =======
    	font: 16pt &quot;Bebas Kai&quot;;
 }</string>
+>>>>>>> master
                      </property>
                      <property name="text">
-                      <string>STORE CURRENT TOOL</string>
+                      <string>Store Tool IN CAROUSEL</string>
                      </property>
-                     <property name="checkable">
-                      <bool>false</bool>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>true</bool>
-                     </property>
-                     <property name="rules" stdset="0">
-                      <string>[]</string>
-                     </property>
-                     <property name="MDICommand" stdset="0">
-                      <string>M6 T0</string>
+                     <property name="filename" stdset="0">
+                      <string>store_tool_in_carousel.ngc</string>
                      </property>
                     </widget>
                    </item>
@@ -6090,7 +8492,11 @@ font: 16pt &quot;Bebas Kai&quot;;
                     <number>2</number>
                    </property>
                    <item>
+<<<<<<< HEAD
+                    <widget class="VCPLineEdit" name="tool_number_entry_atc_page">
+=======
                     <widget class="VCPLineEdit" name="atc_tool_number_entry_box">
+>>>>>>> master
 >>>>>>> master
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -6101,7 +8507,11 @@ font: 16pt &quot;Bebas Kai&quot;;
                      <property name="minimumSize">
                       <size>
 <<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>125</width>
+=======
                        <width>100</width>
+>>>>>>> master
                        <height>30</height>
 =======
                        <width>128</width>
@@ -6112,7 +8522,11 @@ font: 16pt &quot;Bebas Kai&quot;;
                      <property name="maximumSize">
                       <size>
 <<<<<<< HEAD
+<<<<<<< HEAD
+                       <width>125</width>
+=======
                        <width>100</width>
+>>>>>>> master
                        <height>30</height>
                       </size>
                      </property>
@@ -6125,6 +8539,19 @@ font: 16pt &quot;Bebas Kai&quot;;
 }</string>
                      </property>
                      <property name="text">
+<<<<<<< HEAD
+                      <string> NEW FOLDER</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_folder.png</normaloff>:/images/new_folder.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>28</width>
+                       <height>15</height>
+                      </size>
+=======
                       <string>EJECT USB</string>
                      </property>
                     </widget>
@@ -6139,6 +8566,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       <font>
                        <family>Bebas Kai</family>
                        <pointsize>12</pointsize>
+>>>>>>> master
 =======
                        <width>55</width>
                        <height>43</height>
@@ -6710,6 +9138,22 @@ QHeaderView {
                       <enum>Qt::NoFocus</enum>
                      </property>
                      <property name="styleSheet">
+<<<<<<< HEAD
+                      <string notr="true">font: 17pt;</string>
+                     </property>
+                     <property name="text">
+                      <string>0</string>
+                     </property>
+                     <property name="frame">
+                      <bool>true</bool>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                     <property name="rules" stdset="0">
+                      <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?tool_number&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;str(ch[0])&quot;, &quot;name&quot;: &quot;update tool num&quot;}, {&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}, {&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;ch[0] == 'On' and ch[1] == 'Idle'&quot;, &quot;name&quot;: &quot;enable/disable&quot;}]</string>
+>>>>>>> master
+=======
                       <string notr="true">QPushButton {
 <<<<<<< HEAD
    	font: 14pt &quot;Bebas Kai&quot;;
@@ -6740,6 +9184,7 @@ QHeaderView {
                      </property>
                      <property name="text">
                       <string>TOUCH OFF ENTIRE CAROUSEL</string>
+>>>>>>> master
                      </property>
                     </widget>
                    </item>
@@ -6763,9 +9208,16 @@ QHeaderView {
                     <number>2</number>
                    </property>
                    <item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <widget class="QPushButton" name="device_rename_item_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+=======
                     <widget class="ActionButton" name="m01_break_button_25">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+>>>>>>> master
 >>>>>>> master
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
@@ -6773,6 +9225,24 @@ QHeaderView {
                      </property>
                      <property name="minimumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>90</width>
+                       <height>30</height>
+=======
+                    <widget class="SubCallButton" name="m6_tool_call_button_atc_page">
+                     <property name="minimumSize">
+                      <size>
+                       <width>125</width>
+                       <height>45</height>
+>>>>>>> master
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>90</width>
+                       <height>30</height>
+=======
 <<<<<<< HEAD
                        <width>90</width>
                        <height>30</height>
@@ -6791,6 +9261,7 @@ QHeaderView {
                        <width>16777215</width>
                        <height>45</height>
 >>>>>>> master
+>>>>>>> master
                       </size>
                      </property>
                      <property name="focusPolicy">
@@ -6799,17 +9270,69 @@ QHeaderView {
                      <property name="styleSheet">
                       <string notr="true">QPushButton {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
    	font: 14pt &quot;Bebas Kai&quot;;
 }</string>
                      </property>
                      <property name="text">
                       <string>RENAME</string>
 =======
+<<<<<<< HEAD
+                       <width>16777215</width>
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+QPushButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 16pt;
+}
+
+QPushButton:disabled {
+    border-color: gray;
+}
+
+QPushButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+QPushButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+</string>
+                     </property>
+                     <property name="text">
+                      <string>M6 G43</string>
+                     </property>
+                     <property name="filename" stdset="0">
+                      <string>m6_tool_call_atc_page.ngc</string>
+=======
    	font: 16pt &quot;Bebas Kai&quot;;
 }</string>
                      </property>
                      <property name="text">
                       <string>TOUCH OFF CURRENT TOOL</string>
+>>>>>>> master
 >>>>>>> master
                      </property>
                     </widget>
@@ -6821,6 +9344,10 @@ QHeaderView {
               </item>
 <<<<<<< HEAD
               <item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
                <layout class="QVBoxLayout" name="verticalLayout_36">
                 <property name="spacing">
                  <number>15</number>
@@ -6951,27 +9478,97 @@ USB</string>
               </item>
               <item>
                <widget class="QFrame" name="frame_34">
+<<<<<<< HEAD
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
+=======
+               <widget class="QFrame" name="frame_7">
+=======
+>>>>>>> master
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+<<<<<<< HEAD
+                  <verstretch>1</verstretch>
+>>>>>>> master
+=======
+                  <verstretch>0</verstretch>
+>>>>>>> master
                  </sizepolicy>
                 </property>
                 <property name="minimumSize">
                  <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
                   <width>500</width>
                   <height>0</height>
+=======
+                  <width>320</width>
+                  <height>200</height>
+>>>>>>> master
+=======
+                  <width>500</width>
+                  <height>0</height>
+>>>>>>> master
                  </size>
                 </property>
                 <property name="maximumSize">
                  <size>
+<<<<<<< HEAD
+<<<<<<< HEAD
                   <width>500</width>
                   <height>16777215</height>
+=======
+                  <width>320</width>
+                  <height>200</height>
+>>>>>>> master
+=======
+                  <width>500</width>
+                  <height>16777215</height>
+>>>>>>> master
                  </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
+<<<<<<< HEAD
+<<<<<<< HEAD
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_35">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_121">
+                   <property name="leftMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>5</number>
+                   </property>
+                   <item>
+                    <widget class="QPushButton" name="main_folder_up_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>110</width>
+                       <height>30</height>
+=======
+    padding-left: 10px;
+    padding-right: 10px;
+=======
+>>>>>>> master
 }</string>
                 </property>
                 <property name="frameShape">
@@ -7043,11 +9640,50 @@ USB</string>
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
+<<<<<<< HEAD
+                       <height>45</height>
+>>>>>>> master
+=======
                        <height>30</height>
+>>>>>>> master
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
+<<<<<<< HEAD
+                       <width>110</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>  FOLDER UP</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/folder_up.png</normaloff>:/images/folder_up.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>30</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="RecentFileComboBox" name="recentfilecombobox_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>1</horstretch>
+=======
                        <width>16777215</width>
                        <height>30</height>
                       </size>
@@ -7085,6 +9721,146 @@ USB</string>
                      <property name="text">
                       <string>LOAD G-CODE</string>
                      </property>
+<<<<<<< HEAD
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+=======
+>>>>>>> master
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+<<<<<<< HEAD
+                  <layout class="QHBoxLayout" name="horizontalLayout_19">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>2</number>
+                   </property>
+                   <item>
+                    <widget class="ActionButton" name="m01_break_button_24">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+>>>>>>> master
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>0</width>
+                       <height>30</height>
+=======
+                       <width>250</width>
+                       <height>45</height>
+>>>>>>> master
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+<<<<<<< HEAD
+                       <height>30</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="main_load_gcode_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+=======
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>TOUCH OFF ENTIRE CAROUSEL</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_23">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>2</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>2</number>
+                   </property>
+                   <item>
+                    <widget class="ActionButton" name="m01_break_button_25">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+>>>>>>> master
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
+                       <width>250</width>
+                       <height>45</height>
+>>>>>>> master
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>100</width>
+                       <height>30</height>
+=======
+                       <width>16777215</width>
+                       <height>45</height>
+>>>>>>> master
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+<<<<<<< HEAD
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>LOAD G-CODE</string>
+                     </property>
                     </widget>
                    </item>
                   </layout>
@@ -7092,6 +9868,10 @@ USB</string>
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_122">
                    <item>
+=======
+                  <layout class="QHBoxLayout" name="horizontalLayout_122">
+                   <item>
+>>>>>>> master
                     <widget class="FileSystemTable" name="filesystemtable">
                      <property name="focusPolicy">
                       <enum>Qt::WheelFocus</enum>
@@ -7152,6 +9932,7 @@ QHeaderView {
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton {
+<<<<<<< HEAD
    	font: 14pt &quot;Bebas Kai&quot;;
 }</string>
                      </property>
@@ -7195,7 +9976,134 @@ QHeaderView {
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton {
+=======
+>>>>>>> master
    	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> NEW FILE</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_file.png</normaloff>:/images/new_file.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>12</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+<<<<<<< HEAD
+                    <widget class="QPushButton" name="main_new_folder_button">
+=======
+                    <widget class="QPushButton" name="main_new_file_button">
+>>>>>>> master
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>125</width>
+=======
+                       <width>100</width>
+>>>>>>> master
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+<<<<<<< HEAD
+                       <width>125</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string> NEW FOLDER</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic.qrc">
+                       <normaloff>:/images/new_folder.png</normaloff>:/images/new_folder.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>28</width>
+                       <height>15</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="main_rename_item_button">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>90</width>
+=======
+                       <width>100</width>
+>>>>>>> master
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+   	font: 14pt &quot;Bebas Kai&quot;;
+<<<<<<< HEAD
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>RENAME</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_36">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QFrame{
+=======
+   	font: 16pt &quot;Bebas Kai&quot;;
+=======
+>>>>>>> master
 }</string>
                      </property>
                      <property name="text">
@@ -8632,6 +11540,7 @@ color: rgb(255, 255, 255);
     border-radius: 5px;
     border-width: 2px;
     background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+<<<<<<< HEAD
 }
 
 QPushButton {
@@ -8671,6 +11580,485 @@ QPushButton:checked {
                     </item>
                    </layout>
                   </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_80">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="sizeConstraint">
+                     <enum>QLayout::SetDefaultConstraint</enum>
+                    </property>
+                    <property name="leftMargin">
+                     <number>2</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>2</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>2</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>2</number>
+                    </property>
+                    <item>
+                     <widget class="MDIButton" name="remove_current_tool_3">
+                      <property name="enabled">
+                       <bool>false</bool>
+                      </property>
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>130</width>
+                        <height>45</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>45</height>
+                       </size>
+                      </property>
+                      <property name="focusPolicy">
+                       <enum>Qt::NoFocus</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+   	font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>UNLOAD SPINDLE</string>
+                      </property>
+                      <property name="checkable">
+                       <bool>false</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>true</bool>
+                      </property>
+                      <property name="rules" stdset="0">
+                       <string>[]</string>
+                      </property>
+                      <property name="MDICommand" stdset="0">
+                       <string>M61 Q0 G49 #5210 = 0</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_145">
+                    <property name="spacing">
+                     <number>9</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>2</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>2</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>2</number>
+                    </property>
+                    <item>
+                     <widget class="VCPLineEdit" name="tool_number_entry_tool_page">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                        <horstretch>1</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>43</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>43</height>
+                       </size>
+                      </property>
+                      <property name="sizeIncrement">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="palette">
+                       <palette>
+                        <active>
+                         <colorrole role="WindowText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Text">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="ButtonText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Highlight">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>65</red>
+                            <green>84</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="HighlightedText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </active>
+                        <inactive>
+                         <colorrole role="WindowText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Text">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="ButtonText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Highlight">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>65</red>
+                            <green>84</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="HighlightedText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </inactive>
+                        <disabled>
+                         <colorrole role="WindowText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Text">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="ButtonText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Highlight">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>65</red>
+                            <green>84</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="HighlightedText">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </disabled>
+                       </palette>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Bebas Kai</family>
+                        <pointsize>16</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                       </font>
+                      </property>
+                      <property name="focusPolicy">
+                       <enum>Qt::ClickFocus</enum>
+                      </property>
+                      <property name="contextMenuPolicy">
+                       <enum>Qt::NoContextMenu</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">font: 16pt;</string>
+                      </property>
+                      <property name="text">
+                       <string>0</string>
+                      </property>
+                      <property name="frame">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                      <property name="rules" stdset="0">
+                       <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?tool_number&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;str(ch[0])&quot;, &quot;name&quot;: &quot;update tool num&quot;}, {&quot;channels&quot;: [{&quot;url&quot;: &quot;status:task_state?text&quot;, &quot;trigger&quot;: true}, {&quot;url&quot;: &quot;status:interp_state?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;ch[0] == 'On' and ch[1] == 'Idle'&quot;, &quot;name&quot;: &quot;enable/disable&quot;}]</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="SubCallButton" name="m6_tool_call_button_tool_page">
+                      <property name="minimumSize">
+                       <size>
+                        <width>120</width>
+                        <height>45</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>45</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+=======
+>>>>>>> master
+}
+
+QPushButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 16pt;
+}
+
+QPushButton:disabled {
+    border-color: gray;
+}
+
+QPushButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+QPushButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+</string>
+                      </property>
+                      <property name="text">
+<<<<<<< HEAD
+                       <string>M6 G43</string>
+                      </property>
+                      <property name="filename" stdset="0">
+                       <string>m6_tool_call_tool_page.ngc</string>
+=======
+                       <string>LOAD SPINDLE</string>
+                      </property>
+                      <property name="filename" stdset="0">
+                       <string>load_spindle_safety_2.ngc</string>
+>>>>>>> master
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+<<<<<<< HEAD
+                 </layout>
+                </widget>
+                <widget class="QFrame" name="frame_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>320</x>
+                   <y>360</y>
+                   <width>250</width>
+                   <height>150</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>1</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>250</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>250</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">.QFrame{
+    border-style: solid;
+    border-color: rgb(176, 179, 172);
+    border-width: 2px;
+    border-radius: 6px;
+>>>>>>> master
+=======
                   <item>
                    <layout class="QHBoxLayout" name="horizontalLayout_80">
                     <property name="spacing">
@@ -9140,6 +12528,7 @@ QPushButton:checked {
                 </property>
                 <property name="styleSheet">
                  <string notr="true">.QFrame{
+>>>>>>> master
     background-color: rgb(51, 57, 59);
 }</string>
                 </property>
@@ -30070,7 +33459,11 @@ color: white;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
+<<<<<<< HEAD
            <number>2</number>
+=======
+           <number>1</number>
+>>>>>>> master
           </property>
           <widget class="QWidget" name="tabWidget_24Page1">
            <attribute name="title">
@@ -34074,7 +37467,7 @@ border-radius: 1px;
                </widget>
               </item>
               <item>
-               <widget class="VCPLineEdit" name="main_tool_number_entry_box">
+               <widget class="VCPLineEdit" name="tool_number_entry_main_panel">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
@@ -34355,7 +37748,7 @@ border-radius: 1px;
             </widget>
            </item>
            <item>
-            <widget class="MDIButton" name="m6_button_main">
+            <widget class="SubCallButton" name="m6_tool_call_button_main_panel">
              <property name="minimumSize">
               <size>
                <width>70</width>
@@ -34368,28 +37761,48 @@ border-radius: 1px;
                <height>40</height>
               </size>
              </property>
-             <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
-             </property>
-             <property name="toolTip">
-              <string>M6 Tool Change command that will perform a tool change to the tool specified in the adjacent 'T' Box</string>
-             </property>
-             <property name="toolTipDuration">
-              <number>3</number>
-             </property>
-             <property name="whatsThis">
-              <string>M6 Tool Change command that will perform a tool change to the tool specified in the adjacent 'T' Box</string>
-             </property>
              <property name="styleSheet">
               <string notr="true">QPushButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
-}</string>
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+QPushButton {
+    font-family: &quot;Bebas Kai&quot;;
+    font-size: 16pt;
+}
+
+QPushButton:disabled {
+    border-color: gray;
+}
+
+QPushButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+QPushButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+QPushButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+</string>
              </property>
              <property name="text">
-              <string>M6</string>
+              <string>M6 G43</string>
              </property>
-             <property name="MDICommand" stdset="0">
-              <string>T#&lt;main_tool_number_entry_box&gt; M6</string>
+             <property name="filename" stdset="0">
+              <string>m6_tool_call_main_panel.ngc</string>
              </property>
             </widget>
            </item>
@@ -35577,7 +38990,7 @@ border-radius: 1px;
     border-radius: 5px;
     color: black;
     background: rgb(235, 235, 235);
-	font: 17pt;
+	font: 17pt &quot;Bebas Kai&quot;;
     padding-right: 2px;
 }
 
@@ -35846,7 +39259,7 @@ StatusLabel[style=&quot;homing&quot;]{
     border-radius: 5px;
     color: black;
     background: rgb(235, 235, 235);
-	font: 17pt;
+	font: 17pt &quot;Bebas Kai&quot;;
     padding-right: 2px;
 }
 
@@ -36112,7 +39525,7 @@ StatusLabel[style=&quot;homing&quot;]{
     border-radius: 5px;
     color: black;
     background: rgb(235, 235, 235);
-	font: 17pt;
+	font: 17pt &quot;Bebas Kai&quot;;
     padding-right: 2px;
 }
 
@@ -36377,7 +39790,7 @@ StatusLabel[style=&quot;homing&quot;]{
     border-radius: 5px;
     color: black;
     background: rgb(235, 235, 235);
-	font: 17pt;
+	font: 17pt &quot;Bebas Kai&quot;;
     padding-right: 2px;
 }
 
@@ -36643,7 +40056,7 @@ StatusLabel[style=&quot;homing&quot;]{
     border-radius: 5px;
     color: black;
     background: rgb(235, 235, 235);
-	font: 17pt;
+	font: 17pt &quot;Bebas Kai&quot;;
     padding-right: 2px;
 }
 
@@ -38588,6 +42001,7 @@ font: 11pt Liberation Sans;
  </resources>
  <connections>
   <connection>
+<<<<<<< HEAD
    <sender>main_tool_number_entry_box</sender>
    <signal>returnPressed()</signal>
    <receiver>m6_button_main</receiver>
@@ -38605,6 +42019,9 @@ font: 11pt Liberation Sans;
   </connection>
   <connection>
    <sender>main_folder_up_button</sender>
+=======
+   <sender>main_delete_item_button</sender>
+>>>>>>> master
    <signal>clicked()</signal>
    <receiver>filesystemtable</receiver>
    <slot>viewParentDirectory()</slot>
@@ -38614,13 +42031,18 @@ font: 11pt Liberation Sans;
      <x>749</x>
      <y>104</y>
 =======
+<<<<<<< HEAD
+     <x>749</x>
+     <y>104</y>
+=======
      <x>109</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38635,13 +42057,18 @@ font: 11pt Liberation Sans;
      <x>736</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>736</x>
+     <y>628</y>
+=======
      <x>129</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38656,13 +42083,18 @@ font: 11pt Liberation Sans;
      <x>993</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>993</x>
+     <y>628</y>
+=======
      <x>144</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38677,13 +42109,18 @@ font: 11pt Liberation Sans;
      <x>401</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>401</x>
+     <y>628</y>
+=======
      <x>144</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38695,12 +42132,17 @@ font: 11pt Liberation Sans;
    <hints>
     <hint type="sourcelabel">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
      <x>608</x>
      <y>482</y>
     </hint>
     <hint type="destinationlabel">
      <x>749</x>
      <y>182</y>
+<<<<<<< HEAD
+=======
 =======
      <x>79</x>
      <y>135</y>
@@ -38708,6 +42150,7 @@ font: 11pt Liberation Sans;
     <hint type="destinationlabel">
      <x>119</x>
      <y>75</y>
+>>>>>>> master
 >>>>>>> master
     </hint>
    </hints>
@@ -38723,13 +42166,18 @@ font: 11pt Liberation Sans;
      <x>608</x>
      <y>320</y>
 =======
+<<<<<<< HEAD
+     <x>608</x>
+     <y>320</y>
+=======
      <x>109</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38741,12 +42189,17 @@ font: 11pt Liberation Sans;
    <hints>
     <hint type="sourcelabel">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
      <x>144</x>
      <y>628</y>
     </hint>
     <hint type="destinationlabel">
      <x>157</x>
      <y>182</y>
+<<<<<<< HEAD
+=======
 =======
      <x>119</x>
      <y>75</y>
@@ -38754,6 +42207,7 @@ font: 11pt Liberation Sans;
     <hint type="destinationlabel">
      <x>119</x>
      <y>75</y>
+>>>>>>> master
 >>>>>>> master
     </hint>
    </hints>
@@ -38769,13 +42223,18 @@ font: 11pt Liberation Sans;
      <x>852</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>852</x>
+     <y>628</y>
+=======
      <x>79</x>
      <y>135</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38790,13 +42249,18 @@ font: 11pt Liberation Sans;
      <x>157</x>
      <y>104</y>
 =======
+<<<<<<< HEAD
+     <x>157</x>
+     <y>104</y>
+=======
      <x>129</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38807,12 +42271,12 @@ font: 11pt Liberation Sans;
    <slot>transferFile(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38827,13 +42291,18 @@ font: 11pt Liberation Sans;
      <x>1109</x>
      <y>104</y>
 =======
+<<<<<<< HEAD
+     <x>1109</x>
+     <y>104</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38844,12 +42313,12 @@ font: 11pt Liberation Sans;
    <slot>transferFile(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38892,16 +42361,21 @@ font: 11pt Liberation Sans;
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
     <hint type="destinationlabel">
 <<<<<<< HEAD
      <x>1109</x>
      <y>104</y>
 =======
+<<<<<<< HEAD
+     <x>1109</x>
+     <y>104</y>
+=======
      <x>119</x>
      <y>75</y>
+>>>>>>> master
 >>>>>>> master
     </hint>
    </hints>
@@ -38917,13 +42391,18 @@ font: 11pt Liberation Sans;
      <x>260</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>260</x>
+     <y>628</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -38933,6 +42412,17 @@ font: 11pt Liberation Sans;
 <<<<<<< HEAD
    <receiver>vtk_main</receiver>
    <slot>setViewY()</slot>
+<<<<<<< HEAD
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
 =======
    <receiver>tableWidget_2</receiver>
    <slot>deleteSelectedTool()</slot>
@@ -38952,17 +42442,23 @@ font: 11pt Liberation Sans;
    <signal>toggled(bool)</signal>
    <receiver>vtk</receiver>
    <slot>toggleMachineLabels()</slot>
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> master
    <hints>
     <hint type="sourcelabel">
-     <x>777</x>
-     <y>181</y>
+     <x>1840</x>
+     <y>397</y>
     </hint>
     <hint type="destinationlabel">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
      <x>828</x>
      <y>102</y>
 =======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39200,6 +42696,17 @@ font: 11pt Liberation Sans;
 <<<<<<< HEAD
    <receiver>vtk_main</receiver>
    <slot>setViewP()</slot>
+<<<<<<< HEAD
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
 =======
    <receiver>vtk</receiver>
    <slot>clearLivePlot()</slot>
@@ -39219,15 +42726,19 @@ font: 11pt Liberation Sans;
    <signal>clicked(bool)</signal>
    <receiver>vtk_probe</receiver>
    <slot>toggleProgramBounds()</slot>
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> master
    <hints>
     <hint type="sourcelabel">
-     <x>777</x>
-     <y>97</y>
+     <x>1840</x>
+     <y>133</y>
     </hint>
     <hint type="destinationlabel">
-     <x>828</x>
-     <y>102</y>
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39238,6 +42749,7 @@ font: 11pt Liberation Sans;
    <slot>toggleMachineBounds()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>180</y>
     </hint>
@@ -39246,6 +42758,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39284,6 +42806,7 @@ font: 11pt Liberation Sans;
    <slot>toggleMachineTicks()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>288</y>
     </hint>
@@ -39292,6 +42815,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39305,6 +42838,7 @@ font: 11pt Liberation Sans;
    <slot>setViewMachine()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>570</y>
     </hint>
@@ -39313,6 +42847,16 @@ font: 11pt Liberation Sans;
      <x>1191</x>
      <y>193</y>
 =======
+     <x>1840</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>1191</x>
+     <y>193</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39326,6 +42870,7 @@ font: 11pt Liberation Sans;
    <slot>toggleProgramTicks()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>240</y>
     </hint>
@@ -39334,6 +42879,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39347,6 +42902,7 @@ font: 11pt Liberation Sans;
    <slot>toggleProgramBounds()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>132</y>
     </hint>
@@ -39355,6 +42911,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39439,6 +43005,7 @@ font: 11pt Liberation Sans;
    <slot>showGrid(bool)</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>456</y>
     </hint>
@@ -39447,6 +43014,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39460,6 +43037,7 @@ font: 11pt Liberation Sans;
    <slot>setViewY()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>222</y>
     </hint>
@@ -39468,6 +43046,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39481,6 +43069,7 @@ font: 11pt Liberation Sans;
    <slot>setViewP()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>131</y>
     </hint>
@@ -39489,6 +43078,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39502,6 +43101,7 @@ font: 11pt Liberation Sans;
    <slot>setViewX()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>177</y>
     </hint>
@@ -39510,6 +43110,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39523,6 +43133,7 @@ font: 11pt Liberation Sans;
    <slot>zoomIn()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>339</y>
     </hint>
@@ -39531,6 +43142,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39544,6 +43165,7 @@ font: 11pt Liberation Sans;
    <slot>setViewOrtho()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>527</y>
     </hint>
@@ -39552,6 +43174,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39565,6 +43197,7 @@ font: 11pt Liberation Sans;
    <slot>clearLivePlot()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>456</y>
     </hint>
@@ -39589,6 +43222,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39602,6 +43245,7 @@ font: 11pt Liberation Sans;
    <slot>setViewMachine()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>570</y>
     </hint>
@@ -39610,6 +43254,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39623,6 +43277,7 @@ font: 11pt Liberation Sans;
    <slot>setViewPersp()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>572</y>
     </hint>
@@ -39631,6 +43286,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1743</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39644,6 +43309,7 @@ font: 11pt Liberation Sans;
    <slot>printView()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>522</y>
     </hint>
@@ -39652,6 +43318,16 @@ font: 11pt Liberation Sans;
      <x>828</x>
      <y>102</y>
 =======
+     <x>1840</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+=======
+<<<<<<< HEAD
+     <x>828</x>
+     <y>102</y>
+=======
+>>>>>>> master
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39665,12 +43341,21 @@ font: 11pt Liberation Sans;
    <slot>setViewPersp()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>572</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39685,8 +43370,13 @@ font: 11pt Liberation Sans;
      <y>131</y>
     </hint>
     <hint type="destinationlabel">
+<<<<<<< HEAD
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39697,12 +43387,21 @@ font: 11pt Liberation Sans;
    <slot>setViewX()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>177</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39713,12 +43412,21 @@ font: 11pt Liberation Sans;
    <slot>setViewY()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>222</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39729,12 +43437,21 @@ font: 11pt Liberation Sans;
    <slot>zoomIn()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>339</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39745,12 +43462,21 @@ font: 11pt Liberation Sans;
    <slot>zoomOut()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>384</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39761,12 +43487,21 @@ font: 11pt Liberation Sans;
    <slot>clearLivePlot()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>456</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39777,12 +43512,21 @@ font: 11pt Liberation Sans;
    <slot>setViewOrtho()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>527</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39793,12 +43537,21 @@ font: 11pt Liberation Sans;
    <slot>toggleMachineTicks()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>288</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39809,12 +43562,21 @@ font: 11pt Liberation Sans;
    <slot>showGrid(bool)</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>456</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39825,12 +43587,21 @@ font: 11pt Liberation Sans;
    <slot>toggleMachineLabels()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>396</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>397</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39841,12 +43612,21 @@ font: 11pt Liberation Sans;
    <slot>toggleMachineBounds()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>180</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39857,12 +43637,21 @@ font: 11pt Liberation Sans;
    <slot>toggleProgramTicks()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>240</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39871,6 +43660,7 @@ font: 11pt Liberation Sans;
    <signal>clicked(bool)</signal>
    <receiver>vtk_probe</receiver>
    <slot>toggleProgramLabels()</slot>
+<<<<<<< HEAD
    <hints>
     <hint type="sourcelabel">
      <x>1822</x>
@@ -39881,6 +43671,38 @@ font: 11pt Liberation Sans;
      <x>1191</x>
      <y>193</y>
 =======
+   <hints>
+    <hint type="sourcelabel">
+     <x>1840</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+=======
+<<<<<<< HEAD
+     <x>1191</x>
+     <y>193</y>
+=======
+     <x>831</x>
+     <y>103</y>
+>>>>>>> master
+>>>>>>> master
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>z_view_button_plot</sender>
+   <signal>clicked()</signal>
+   <receiver>vtk</receiver>
+   <slot>setViewZ()</slot>
+   <hints>
+    <hint type="sourcelabel">
+<<<<<<< HEAD
+     <x>1743</x>
+     <y>271</y>
+    </hint>
+    <hint type="destinationlabel">
      <x>831</x>
      <y>103</y>
 >>>>>>> master
@@ -39894,13 +43716,17 @@ font: 11pt Liberation Sans;
    <slot>setViewZ()</slot>
    <hints>
     <hint type="sourcelabel">
+=======
 <<<<<<< HEAD
+>>>>>>> master
      <x>1725</x>
      <y>267</y>
     </hint>
     <hint type="destinationlabel">
      <x>828</x>
      <y>102</y>
+<<<<<<< HEAD
+=======
 =======
      <x>109</x>
      <y>75</y>
@@ -39908,6 +43734,7 @@ font: 11pt Liberation Sans;
     <hint type="destinationlabel">
      <x>119</x>
      <y>75</y>
+>>>>>>> master
 >>>>>>> master
     </hint>
    </hints>
@@ -39919,12 +43746,21 @@ font: 11pt Liberation Sans;
    <slot>printView()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1822</x>
      <y>522</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1840</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39935,12 +43771,21 @@ font: 11pt Liberation Sans;
    <slot>rename()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1099</x>
      <y>628</y>
     </hint>
     <hint type="destinationlabel">
      <x>749</x>
      <y>182</y>
+=======
+     <x>1840</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39951,12 +43796,21 @@ font: 11pt Liberation Sans;
    <slot>setViewZ()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1725</x>
      <y>267</y>
     </hint>
     <hint type="destinationlabel">
      <x>1191</x>
      <y>193</y>
+=======
+     <x>1743</x>
+     <y>271</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>196</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -39971,13 +43825,18 @@ font: 11pt Liberation Sans;
      <x>507</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>507</x>
+     <y>628</y>
+=======
      <x>109</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>157</x>
+     <y>182</y>
     </hint>
    </hints>
   </connection>
@@ -39988,12 +43847,12 @@ font: 11pt Liberation Sans;
    <slot>setText(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
+     <x>749</x>
+     <y>182</y>
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>1264</x>
+     <y>215</y>
     </hint>
    </hints>
   </connection>
@@ -40008,13 +43867,18 @@ font: 11pt Liberation Sans;
      <x>1365</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>1374</x>
+     <y>623</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>1264</x>
+     <y>215</y>
     </hint>
    </hints>
   </connection>
@@ -40029,13 +43893,18 @@ font: 11pt Liberation Sans;
      <x>1585</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>1592</x>
+     <y>623</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>1264</x>
+     <y>215</y>
     </hint>
    </hints>
   </connection>
@@ -40050,13 +43919,18 @@ font: 11pt Liberation Sans;
      <x>1255</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>1265</x>
+     <y>623</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>1264</x>
+     <y>215</y>
     </hint>
    </hints>
   </connection>
@@ -40071,13 +43945,18 @@ font: 11pt Liberation Sans;
      <x>1475</x>
      <y>628</y>
 =======
+<<<<<<< HEAD
+     <x>1483</x>
+     <y>623</y>
+=======
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>1264</x>
+     <y>215</y>
     </hint>
    </hints>
   </connection>
@@ -40088,6 +43967,14 @@ font: 11pt Liberation Sans;
    <slot>setText(QString)</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
+     <x>749</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1592</x>
+     <y>136</y>
+=======
      <x>119</x>
      <y>75</y>
     </hint>
@@ -40115,6 +44002,7 @@ font: 11pt Liberation Sans;
      <x>119</x>
      <y>75</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
    </hints>
   </connection>
@@ -40125,8 +44013,13 @@ font: 11pt Liberation Sans;
    <slot>deleteSelectedOffset()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>141</x>
      <y>559</y>
+=======
+     <x>143</x>
+     <y>562</y>
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
      <x>117</x>
@@ -40156,16 +44049,29 @@ font: 11pt Liberation Sans;
    <signal>fileNamePreviewText(QString)</signal>
    <receiver>gcodeeditor_2</receiver>
    <slot>setFilename(QString)</slot>
+<<<<<<< HEAD
+=======
 =======
    <sender>x_axis_button_11</sender>
    <signal>clicked()</signal>
    <receiver>offset_table</receiver>
    <slot>clearOffsetTable()</slot>
 >>>>>>> master
+>>>>>>> master
    <hints>
     <hint type="sourcelabel">
      <x>749</x>
      <y>182</y>
+=======
+   <sender>x_axis_button_11</sender>
+   <signal>clicked()</signal>
+   <receiver>offset_table</receiver>
+   <slot>clearOffsetTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>562</y>
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
      <x>1264</x>
@@ -40180,8 +44086,13 @@ font: 11pt Liberation Sans;
    <slot>clearOffsetTable()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>274</x>
      <y>559</y>
+=======
+     <x>409</x>
+     <y>562</y>
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
      <x>220</x>
@@ -40197,7 +44108,11 @@ font: 11pt Liberation Sans;
    <hints>
     <hint type="sourcelabel">
      <x>541</x>
+<<<<<<< HEAD
      <y>559</y>
+=======
+     <y>562</y>
+>>>>>>> master
     </hint>
     <hint type="destinationlabel">
      <x>508</x>
@@ -40206,6 +44121,7 @@ font: 11pt Liberation Sans;
    </hints>
   </connection>
   <connection>
+<<<<<<< HEAD
    <sender>x_axis_button_13</sender>
    <signal>clicked()</signal>
    <receiver>offset_table</receiver>
@@ -40213,12 +44129,61 @@ font: 11pt Liberation Sans;
    <hints>
     <hint type="sourcelabel">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
      <x>408</x>
      <y>559</y>
     </hint>
     <hint type="destinationlabel">
      <x>358</x>
      <y>437</y>
+=======
+<<<<<<< HEAD
+   <sender>removabledevicecombobox</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>filesystemtable_2</receiver>
+   <slot>setRootPath(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>removabledevicecombobox</sender>
+   <signal>usbPresent(bool)</signal>
+   <receiver>device_eject_usb_button</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>518</x>
+     <y>107</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>device_eject_usb_button</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>removabledevicecombobox</receiver>
+   <slot>ejectDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>518</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>277</x>
+     <y>107</y>
 =======
      <x>1447</x>
      <y>424</y>
@@ -40227,10 +44192,12 @@ font: 11pt Liberation Sans;
      <x>1592</x>
      <y>425</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
    </hints>
   </connection>
   <connection>
+<<<<<<< HEAD
    <sender>atc_tool_number_entry_box</sender>
    <signal>returnPressed()</signal>
    <receiver>m6_button_atc</receiver>
@@ -40238,28 +44205,54 @@ font: 11pt Liberation Sans;
    <hints>
     <hint type="sourcelabel">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
      <x>1437</x>
      <y>421</y>
     </hint>
     <hint type="destinationlabel">
      <x>1583</x>
      <y>422</y>
+=======
+   <sender>load_spindle_tool_number</sender>
+   <signal>returnPressed()</signal>
+   <receiver>load_spindle_button</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1441</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1481</x>
+     <y>149</y>
+>>>>>>> master
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>load_spindle_tool_number_2</sender>
    <signal>returnPressed()</signal>
-   <receiver>load_current_tool_2</receiver>
+   <receiver>load_spindle_button_2</receiver>
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
+<<<<<<< HEAD
      <x>1449</x>
      <y>263</y>
     </hint>
     <hint type="destinationlabel">
      <x>1578</x>
      <y>264</y>
+=======
+<<<<<<< HEAD
+     <x>1457</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1488</x>
+     <y>245</y>
 =======
      <x>1466</x>
      <y>384</y>
@@ -40268,26 +44261,28 @@ font: 11pt Liberation Sans;
      <x>1595</x>
      <y>385</y>
 >>>>>>> master
+>>>>>>> master
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>removabledevicecombobox</sender>
-   <signal>currentIndexChanged(QString)</signal>
-   <receiver>filesystemtable_2</receiver>
-   <slot>setRootPath(QString)</slot>
+   <sender>tool_number_entry_main_panel</sender>
+   <signal>returnPressed()</signal>
+   <receiver>m6_tool_call_button_main_panel</receiver>
+   <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
+     <x>459</x>
+     <y>781</y>
     </hint>
     <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
+     <x>513</x>
+     <y>782</y>
     </hint>
    </hints>
   </connection>
   <connection>
+<<<<<<< HEAD
    <sender>atc_tool_number_entry_box_2</sender>
    <signal>returnPressed()</signal>
    <receiver>m6_button_atc_2</receiver>
@@ -40308,62 +44303,36 @@ font: 11pt Liberation Sans;
    <signal>usbPresent(bool)</signal>
    <receiver>device_eject_usb_button</receiver>
    <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>device_eject_usb_button</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>removabledevicecombobox</receiver>
-   <slot>ejectDevice()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>119</x>
-     <y>75</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>119</x>
-     <y>75</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>load_spindle_tool_number</sender>
+=======
+   <sender>tool_number_entry_atc_page</sender>
    <signal>returnPressed()</signal>
-   <receiver>load_spindle_button</receiver>
+   <receiver>m6_tool_call_button_atc_page</receiver>
+   <slot>click()</slot>
+>>>>>>> master
+   <hints>
+    <hint type="sourcelabel">
+     <x>1413</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1484</x>
+     <y>411</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tool_number_entry_tool_page</sender>
+   <signal>returnPressed()</signal>
+   <receiver>m6_tool_call_button_tool_page</receiver>
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1441</x>
-     <y>151</y>
+     <x>1435</x>
+     <y>363</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1481</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>load_spindle_tool_number_2</sender>
-   <signal>returnPressed()</signal>
-   <receiver>load_spindle_button_2</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1457</x>
-     <y>244</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1488</x>
-     <y>245</y>
+     <x>1529</x>
+     <y>363</y>
     </hint>
    </hints>
   </connection>
@@ -40631,15 +44600,28 @@ font: 11pt Liberation Sans;
   <buttongroup name="probetabGroup"/>
   <buttongroup name="probehelpGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
+<<<<<<< HEAD
+=======
 =======
   <buttongroup name="probehelpGroup"/>
   <buttongroup name="probetabGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="plotviewGroup"/>
 >>>>>>> master
+>>>>>>> master
   <buttongroup name="proberoutinebtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+=======
+  <buttongroup name="probehelpGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+>>>>>>> master
   <buttongroup name="probemodeGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="fileviewerbtnGroup"/>
  </buttongroups>
 </ui>
