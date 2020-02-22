@@ -217,6 +217,13 @@ settings:
     min_value: -1000
     max_value: 1000
 
+  tool-setter-probe.mid-probe-fr:
+    description: tool probe mid feedrate
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
   tool-setter-probe.slow-probe-fr:
     description: tool probe slow feedrate.
     default_value: 0.0
@@ -245,9 +252,8 @@ settings:
     min_value: -1000
     max_value: 1000
 
-
-  tool-setter-probe.retract-distance2:
-    description: distance tool retracts after fast probe move.
+  tool-setter-probe.retract-distance-2:
+    description: distance tool retracts after mid and slow probe move.
     default_value: 0.0
     persistent: true
     min_value: -1000
@@ -259,6 +265,14 @@ settings:
     persistent: true
     min_value: -1000
     max_value: 1000
+
+  tool-setter-probe.spindle-touch-speed:
+    description: Spindle speed for the Laser touch off
+    default_value: 0
+    persistent: true
+    min_value: -1000
+    max_value: 24000
+
 
 dialogs:
   about_probebasic:
