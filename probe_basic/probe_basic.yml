@@ -106,6 +106,20 @@ settings:
     min_value: 0
     max_value: 1000
 
+  probe-parameters.x-probe-offset:
+    description: sets a correction in x for probes not used in spindle
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
+  probe-parameters.y-probe-offset:
+    description: sets a correction in y for probes not used in spindle
+    default_value: 0.0
+    persistent: true
+    min_value: -1000
+    max_value: 1000
+
   tool-change-position.x-tool-change-position:
     description: x axis tool change position.
     default_value: 0.0

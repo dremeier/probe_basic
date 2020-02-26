@@ -238,7 +238,7 @@ bottom-margin: 0px;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>6</number>
           </property>
           <widget class="QWidget" name="manual_tab">
            <attribute name="title">
@@ -15993,7 +15993,7 @@ padding-left: 5px;
                           <x>10</x>
                           <y>60</y>
                           <width>526</width>
-                          <height>191</height>
+                          <height>251</height>
                          </rect>
                         </property>
                         <layout class="QVBoxLayout" name="verticalLayout_22">
@@ -16187,6 +16187,201 @@ color: white;
                              </property>
                              <property name="settingName" stdset="0">
                               <string>probe-parameters.step-off-width</string>
+                             </property>
+                             <property name="textFormat" stdset="0">
+                              <string>{:0.3f}</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                         <item>
+                          <layout class="QHBoxLayout" name="horizontalLayout_159">
+                           <property name="leftMargin">
+                            <number>1</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>1</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>1</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>1</number>
+                           </property>
+                           <item>
+                            <widget class="QLabel" name="ref_coilumn_header_24">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="alignment">
+                              <set>Qt::AlignCenter</set>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLabel" name="label_164">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>140</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>150</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                             </property>
+                             <property name="lineWidth">
+                              <number>0</number>
+                             </property>
+                             <property name="text">
+                              <string>X-Probe-Offset:</string>
+                             </property>
+                             <property name="alignment">
+                              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                             </property>
+                             <property name="indent">
+                              <number>0</number>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="VCPSettingsLineEdit" name="x_probe_offset">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>100</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="focusPolicy">
+                              <enum>Qt::ClickFocus</enum>
+                             </property>
+                             <property name="alignment">
+                              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                             </property>
+                             <property name="placeholderText">
+                              <string>0.0000</string>
+                             </property>
+                             <property name="settingName" stdset="0">
+                              <string>probe-parameters.x-probe-offset</string>
+                             </property>
+                             <property name="textFormat" stdset="0">
+                              <string>{:0.3f}</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLabel" name="label_165">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>140</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>140</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="baseSize">
+                              <size>
+                               <width>140</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLabel{
+font: 75 14pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                             </property>
+                             <property name="lineWidth">
+                              <number>0</number>
+                             </property>
+                             <property name="text">
+                              <string>Y-Probe-Offset:</string>
+                             </property>
+                             <property name="alignment">
+                              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                             </property>
+                             <property name="indent">
+                              <number>0</number>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="VCPSettingsLineEdit" name="y_probe_offset">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>100</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>31</height>
+                              </size>
+                             </property>
+                             <property name="focusPolicy">
+                              <enum>Qt::ClickFocus</enum>
+                             </property>
+                             <property name="alignment">
+                              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                             </property>
+                             <property name="placeholderText">
+                              <string>0.0000</string>
+                             </property>
+                             <property name="settingName" stdset="0">
+                              <string>probe-parameters.y-probe-offset</string>
                              </property>
                              <property name="textFormat" stdset="0">
                               <string>{:0.3f}</string>
@@ -19199,7 +19394,7 @@ color: white;
                     </widget>
                    </item>
                    <item>
-                    <widget class="VCPSettingsLineEdit" name="mid_probe_fr_2">
+                    <widget class="VCPSettingsLineEdit" name="mid_probe_fr">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -24660,7 +24855,7 @@ color: white;
                    <number>0</number>
                   </property>
                   <property name="text">
-                   <string>-----</string>
+                   <string>Tool Air Blast</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -25363,6 +25558,23 @@ color: white;
                 </item>
                 <item row="6" column="3">
                  <widget class="HalLedIndicator" name="laser_sperrluft">
+                  <property name="diameter">
+                   <number>25</number>
+                  </property>
+                  <property name="color">
+                   <color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </property>
+                  <property name="state">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="7" column="3">
+                 <widget class="HalLedIndicator" name="tool_air_blast">
                   <property name="diameter">
                    <number>25</number>
                   </property>
@@ -32872,6 +33084,7 @@ font: 11pt Liberation Sans;
   <include location="probe_basic.qrc"/>
   <include location="probe_basic.qrc"/>
   <include location="probe_basic.qrc"/>
+  <include location="../../.designer/backup/probe_basic.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -34493,13 +34706,13 @@ font: 11pt Liberation Sans;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="probehelpGroup"/>
-  <buttongroup name="probemodeGroup"/>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="plotviewGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
  </buttongroups>
 </ui>
