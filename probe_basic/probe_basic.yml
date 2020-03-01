@@ -266,13 +266,6 @@ settings:
     min_value: -1000
     max_value: 1000
 
-  tool-setter-probe.retract-distance-2:
-    description: distance tool retracts after mid and slow probe move.
-    default_value: 0.0
-    persistent: true
-    min_value: -1000
-    max_value: 1000
-
   tool-setter-probe.spindle-nose-height:
     description: distance from home to tool setter for the spindle nose.
     default_value: 0.0

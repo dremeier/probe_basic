@@ -238,7 +238,7 @@ bottom-margin: 0px;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>7</number>
           </property>
           <widget class="QWidget" name="manual_tab">
            <attribute name="title">
@@ -2072,7 +2072,7 @@ warmup</string>
                 </size>
                </property>
                <property name="checkable">
-                <bool>true</bool>
+                <bool>false</bool>
                </property>
                <property name="checked">
                 <bool>false</bool>
@@ -2296,6 +2296,12 @@ QPushButton:checked {
             </property>
             <property name="shortcut">
              <string>Alt+J</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
             </property>
             <property name="filename" stdset="0">
              <string>tool_touch_off.ngc</string>
@@ -19330,7 +19336,7 @@ padding-left: 5px;
                   <x>250</x>
                   <y>0</y>
                   <width>201</width>
-                  <height>400</height>
+                  <height>331</height>
                  </rect>
                 </property>
                 <property name="maximumSize">
@@ -19938,101 +19944,6 @@ color: white;
                      </property>
                      <property name="settingName" stdset="0">
                       <string>tool-setter-probe.retract-distance</string>
-                     </property>
-                     <property name="textFormat" stdset="0">
-                      <string>{:0.3f}</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_67">
-                   <item>
-                    <widget class="QLabel" name="label_160">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>85</width>
-                       <height>31</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>85</width>
-                       <height>31</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                     </property>
-                     <property name="lineWidth">
-                      <number>0</number>
-                     </property>
-                     <property name="text">
-                      <string>RETRACT DIST 2</string>
-                     </property>
-                     <property name="alignment">
-                      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                     </property>
-                     <property name="indent">
-                      <number>0</number>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="VCPSettingsLineEdit" name="retract_distance_2">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>75</width>
-                       <height>31</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>75</width>
-                       <height>31</height>
-                      </size>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <family>bebas kai</family>
-                       <pointsize>14</pointsize>
-                       <weight>50</weight>
-                       <italic>false</italic>
-                       <bold>false</bold>
-                      </font>
-                     </property>
-                     <property name="focusPolicy">
-                      <enum>Qt::ClickFocus</enum>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                     </property>
-                     <property name="alignment">
-                      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                     </property>
-                     <property name="placeholderText">
-                      <string>0.000</string>
-                     </property>
-                     <property name="settingName" stdset="0">
-                      <string>tool-setter-probe.retract-distance-2</string>
                      </property>
                      <property name="textFormat" stdset="0">
                       <string>{:0.3f}</string>
