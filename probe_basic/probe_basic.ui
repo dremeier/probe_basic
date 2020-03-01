@@ -238,7 +238,7 @@ bottom-margin: 0px;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
-           <number>6</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="manual_tab">
            <attribute name="title">
@@ -1908,7 +1908,19 @@ chg. pos.</string>
                 <enum>Qt::NoFocus</enum>
                </property>
                <property name="toolTip">
-                <string>Toll change pos. - T0 - manual Clamp open</string>
+                <string>Toolchange pos. - T0 - manual Clamp open</string>
+               </property>
+               <property name="toolTipDuration">
+                <number>5</number>
+               </property>
+               <property name="whatsThis">
+                <string>Toolchange pos. - T0 - manual Clamp open</string>
+               </property>
+               <property name="accessibleName">
+                <string>accessibleNAME</string>
+               </property>
+               <property name="accessibleDescription">
+                <string>accessibleDescription</string>
                </property>
                <property name="styleSheet">
                 <string notr="true">.SubCallButton {
@@ -1968,6 +1980,108 @@ Clamp</string>
                </property>
                <property name="filename" stdset="0">
                 <string>tool_clamp_gui.ngc</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="4">
+              <widget class="SubCallButton" name="Spindle_warmup">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>1</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Liberation Sans</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="toolTipDuration">
+                <number>-1</number>
+               </property>
+               <property name="statusTip">
+                <string>Warmup the Spindle, takes 5min.</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">.SubCallButton {
+    color: white;    
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(213, 218, 216, 255), stop:0.169312 rgba(82, 82, 83, 255), stop:0.328042 rgba(72, 70, 73, 255), stop:0.492063 rgba(78, 77, 79, 255), stop:0.703704 rgba(72, 70, 73, 255), stop:0.86 rgba(82, 82, 83, 255), stop:1 rgba(213, 218, 216, 255));
+}
+
+.SubCallButton {
+    font-family: &quot;Liberation Sans&quot;;
+    font-size: 12pt;
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+               </property>
+               <property name="inputMethodHints">
+                <set>Qt::ImhNone</set>
+               </property>
+               <property name="text">
+                <string>Spindle
+warmup</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>15</width>
+                 <height>15</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+               <property name="filename" stdset="0">
+                <string>spindle_warmup.ngc</string>
                </property>
               </widget>
              </item>
@@ -5673,7 +5787,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       <string>[]</string>
                      </property>
                      <property name="MDICommand" stdset="0">
-                      <string>M61 Q#&lt;load_spindle_tool_number&gt;</string>
+                      <string>M61 Q#&lt;load_spindle_tool_number&gt; G43</string>
                      </property>
                     </widget>
                    </item>
@@ -8014,7 +8128,7 @@ color: rgb(255, 255, 255);
                        <string>[]</string>
                       </property>
                       <property name="MDICommand" stdset="0">
-                       <string>M61 Q#&lt;load_spindle_tool_number_2&gt;</string>
+                       <string>M61 Q#&lt;load_spindle_tool_number_2&gt; G43</string>
                       </property>
                      </widget>
                     </item>
@@ -13618,7 +13732,7 @@ QPushButton:checked {
                        <string notr="true"/>
                       </property>
                       <property name="currentIndex">
-                       <number>5</number>
+                       <number>3</number>
                       </property>
                       <widget class="QWidget" name="Page1">
                        <layout class="QHBoxLayout" name="horizontalLayout_132">
@@ -30012,13 +30126,17 @@ border-radius: 1px;
              <property name="focusPolicy">
               <enum>Qt::NoFocus</enum>
              </property>
+             <property name="toolTip">
+              <string>G43 Toollength offset on</string>
+             </property>
+             <property name="toolTipDuration">
+              <number>5</number>
+             </property>
              <property name="styleSheet">
-              <string notr="true">MDIButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
-}</string>
+              <string notr="true"/>
              </property>
              <property name="text">
-              <string>G43</string>
+              <string>T length ON</string>
              </property>
              <property name="checkable">
               <bool>true</bool>
@@ -30060,13 +30178,17 @@ border-radius: 1px;
              <property name="focusPolicy">
               <enum>Qt::NoFocus</enum>
              </property>
+             <property name="toolTip">
+              <string>G43 Toollength offset OFF</string>
+             </property>
+             <property name="toolTipDuration">
+              <number>5</number>
+             </property>
              <property name="styleSheet">
-              <string notr="true">MDIButton {
-   	font: 15pt &quot;Bebas Kai&quot;;
-}</string>
+              <string notr="true"/>
              </property>
              <property name="text">
-              <string>G49</string>
+              <string>T length OFF</string>
              </property>
              <property name="checkable">
               <bool>true</bool>
@@ -33084,7 +33206,6 @@ font: 11pt Liberation Sans;
   <include location="probe_basic.qrc"/>
   <include location="probe_basic.qrc"/>
   <include location="probe_basic.qrc"/>
-  <include location="../../.designer/backup/probe_basic.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -34706,12 +34827,12 @@ font: 11pt Liberation Sans;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="plotviewGroup"/>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="probemodeGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probehelpGroup"/>
  </buttongroups>
