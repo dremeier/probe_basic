@@ -2329,10 +2329,10 @@ QPushButton:checked {
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="HalButton" name="feed_override_enable">
+           <widget class="HalButton" name="tshw_toggle">
             <property name="geometry">
              <rect>
-              <x>160</x>
+              <x>170</x>
               <y>190</y>
               <width>84</width>
               <height>80</height>
@@ -2345,9 +2345,9 @@ QPushButton:checked {
              </size>
             </property>
             <property name="text">
-             <string>feed
-override
-enable</string>
+             <string>blue=TsHw
+grey=
+Keybord</string>
             </property>
             <property name="checkable">
              <bool>true</bool>
@@ -33011,6 +33011,31 @@ border-radius: 4px;
           </widget>
          </item>
          <item>
+          <widget class="HalButton" name="feed_override_enable">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>feed
+spindle
+override
+enable</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="Line" name="line_3">
            <property name="minimumSize">
             <size>
@@ -35029,13 +35054,13 @@ font: 11pt Liberation Sans;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
   <buttongroup name="probemodeGroup"/>
   <buttongroup name="probehelpGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="probetabGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
  </buttongroups>
 </ui>
