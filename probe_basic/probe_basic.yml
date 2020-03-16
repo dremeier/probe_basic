@@ -5,11 +5,11 @@ qtdesigner:
   qss_file: ( application.kwargs.stylesheet )
 
 vcp:
-  name: Probe Basic
-  version: v0.0.1
+  name: Probe Basic by Andre
+  version: v0.0.4
   author: Chris Polanski
   description: |
-    Probe Basic description ...
+    Probe Basic edit by AndreM
 
 data_plugins:
   status:
@@ -280,6 +280,12 @@ settings:
     min_value: -1000
     max_value: 24000
 
+  tool-setter-probe.diameter-probe-mode:
+    description: aktivates the tool diameter probe mode
+    default_value: 0
+    persistent: true
+    min_value: 0
+    max_value: 1
 
 dialogs:
   about_probebasic:

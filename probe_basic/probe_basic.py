@@ -71,5 +71,7 @@ class ProbeBasic(VCPMainWindow):
     def on_fileviewerbtnGroup_buttonClicked(self, button):
         self.file_viewer_widget.setCurrentIndex(button.property('page'))
 
+    def on_exitAppBtn_clicked(self):
+        self.app.quit()
 
             
